@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for that premium look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Background Stars -->
+    <div id="star-container"></div>
+
+    <!-- 1. Intro Screen -->
+    <div id="intro-screen" class="active">
+        <div class="intro-content">
+            <h1 class="glow-text">Pov: it's your crush birthday ❤️🥰</h1>
+            <button id="start-btn">Click Me! <br> <span>Birthday Queen! 👑</span></button>
+        </div>
+    </div>
+
+    <!-- 2. Main Birthday Reveal -->
+    <div id="birthday-content">
+        
+        <!-- The Floating Balloons -->
+        <div class="balloon-container">
+            <div class="balloon white-balloon"></div>
+            <div class="balloon patterned-balloon"></div>
+        </div>
+
+        <!-- The Heart Tree Area -->
+        <div class="tree-wrapper">
+            <div class="tree-trunk"></div>
+            <div id="heart-canopy"></div>
+        </div>
+
+        <!-- The Text & Counter Area -->
+        <div class="content-box">
+            <h2 class="wish-text">Happy Birthday My Beautiful! ✨</h2>
+            <p class="love-quote">"I'll give you all the love that one can!"</p>
+            
+            <h3 class="luckier-since">THE WORLD GOT LUCKIER SINCE</h3>
+            
+            <div class="timer-display">
+                <div class="time-segment"><span id="days">0</span> Days</div>
+                <div class="time-segment"><span id="hours">0</span> Hours</div>
+                <div class="time-segment"><span id="minutes">0</span> Minutes</div>
+                <div class="time-segment"><span id="seconds">0</span> Seconds</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
